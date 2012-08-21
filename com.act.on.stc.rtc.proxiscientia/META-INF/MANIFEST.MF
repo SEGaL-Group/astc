@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Proxiscientia
+Bundle-SymbolicName: com.act.on.stc.rtc.proxiscientia; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: SEGaL Group
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ com.ibm.team.repository.client;bundle-version="1.1.1",
+ com.ibm.team.repository.common;bundle-version="1.1.1",
+ com.ibm.team.repository.rcp.core;bundle-version="3.0.1",
+ com.ibm.team.repository.rcp.ui;bundle-version="3.0.1",
+ com.ibm.team.workitem.client;bundle-version="3.0.1",
+ com.ibm.team.workitem.common;bundle-version="3.0.1",
+ com.ibm.team.workitem.rcp.core;bundle-version="3.0.1",
+ com.ibm.team.workitem.rcp.ui;bundle-version="3.0.1",
+ com.ibm.team.process.common;bundle-version="1.2.1",
+ org.eclipse.core.resources;bundle-version="3.5.0",
+ com.act.on.stc.rtc.client;bundle-version="1.0.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6,
+ J2SE-1.5
+Bundle-ClassPath: bin/

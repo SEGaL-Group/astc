@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Common
+Bundle-SymbolicName: com.act.on.stc.common
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.act.on.stc.common,
+ com.act.on.stc.common.datamanagement,
+ com.act.on.stc.common.util,
+ com.act.on.stc.common.utilities

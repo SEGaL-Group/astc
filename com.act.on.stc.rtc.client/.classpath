@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="ExternalLibraries/JerseyClient/jersey-client-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ExternalLibraries/JerseyClient/jersey-core-1.8.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/grizzly-servlet-webserver-1.9.18-i.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/jackson-core-asl-1.7.1.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/jackson-jaxrs-1.7.1.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/jackson-mapper-asl-1.7.1.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/jackson-xc-1.7.1.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/jaxb-api-2.1.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/jaxb-impl-2.1.12.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/jersey-client-1.8.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/jersey-core-1.8.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/jersey-grizzly-1.8.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/jersey-json-1.8.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/jersey-server-1.8.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/JerseyLibs/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="/com.act.on.stc.rtc.server/ExternalLibraries/postgresql-9.0-801.jdbc4.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/com.act.on.stc.common"/>
+	<classpathentry exported="true" kind="lib" path="ExternalLibraries/jsch-0.1.44.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

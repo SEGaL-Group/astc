@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="ProxiScientia"
+            id="com.act.on.stc.rtc.proxiscientia">
+      </category>
+      <view
+            name="ProxiScientia Ego-Network"
+            icon="icons/sample.gif"
+            category="com.act.on.stc.rtc.proxiscientia"
+            class="com.act.on.stc.rtc.proxiscientia.views.PSView"
+            id="com.act.on.stc.rtc.proxiscientia.views.PSView">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <view
+               ratio="0.5"
+               relative="org.eclipse.ui.views.TaskList"
+               relationship="right"
+               id="com.act.on.stc.rtc.proxiscientia.views.PSView">
+         </view>
+      </perspectiveExtension>
+   </extension>
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+
+</plugin>
